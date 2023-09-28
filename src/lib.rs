@@ -1,14 +1,12 @@
-pub fn add(left: usize, right: usize) -> usize {
-    left + right
-}
+// Dioxus uses title case for component names
+#![allow(non_snake_case)]
 
-#[cfg(test)]
-mod tests {
-    use super::*;
+use dioxus::prelude::*;
 
-    #[test]
-    fn it_works() {
-        let result = add(2, 2);
-        assert_eq!(result, 4);
-    }
+pub fn Otterdone(cx: Scope) -> Element {
+    cx.render(rsx! {
+        div {
+            "Hello, Otter! 🦦"
+        }
+    })
 }
