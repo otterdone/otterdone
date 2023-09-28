@@ -1,0 +1,11 @@
+[package]
+name = "otterdone"
+version = "0.0.0"
+edition = "2021"
+
+description = "An opinionated task management app"
+homepage = "https://github.com/otterdone"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/otterdone/otterdone"
+
+[dependencies]
